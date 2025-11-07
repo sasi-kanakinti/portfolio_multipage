@@ -1,7 +1,9 @@
 import React from "react";
 import RoleSwitcher from "../components/RoleSwitcher";
 import { motion } from "framer-motion";
-import profile from "../assets/profile.jpg"; // ✅ Import your image
+import profile from "../assets/profile.jpg";
+import { Link } from "react-router-dom";
+import Projects from "./Projects";
 
 export default function Home() {
   return (
@@ -29,12 +31,12 @@ export default function Home() {
                   Role: <RoleSwitcher />
                 </p>
               </div>
-              <a
-                href="/projects"
-                className="px-4 py-2 rounded-md glass hover:scale-105 transition-transform"
-              >
-                See Projects
-              </a>
+              <Link
+                to="/projects"
+                className="px-4 py-2 rounded-md glass hover:scale-105 transition-transform">
+                  See Projects
+              </Link>
+
             </div>
           </div>
 

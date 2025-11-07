@@ -3,12 +3,15 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import App from "./App";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
 import "./index.css";
 
-createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-    <AnimatePresence mode="wait">
-      <App />
-    </AnimatePresence>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/projects" element={<Projects />} />
+    </Routes>
   </BrowserRouter>
 );
