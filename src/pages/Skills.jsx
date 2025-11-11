@@ -6,7 +6,7 @@ const skills = {
 Frontend: ['React', 'Tailwind', 'HTML', 'CSS', 'JavaScript'],
 Backend: ['SQL'],
 'AI / ML': ['Python', 'PyTorch', 'Transformers', 'RAG'],
-Tools: ['Git','DBeaver', 'Jenkins', 'VSCode'],
+Tools: ['Git','DBeaver', 'Jenkins', 'VSCode','Postman'],
 GenAI: ['ChatGPT', 'GitHub Copilot', 'Prompt Engineering'],
 Cloud: ['Azure', 'Databricks'],
 Frameworks: ['DJango', 'Flask','FASTAPI', 'HuggingFace', 'LangChain' ],
