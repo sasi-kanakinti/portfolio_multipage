@@ -6,7 +6,7 @@ A modern, multi-page **portfolio website** built using **React + Vite + Tailwind
 ---
 
 ## 🚀 Demo
-**🔗 Live Deployment:** [demo-deployment.com](https://demo-deployment.com)
+**🔗 Live Deployment:** [demo-deployment.com]([https://demo-deployment.com](https://portfolio-multipage-8a6rj7059-sasidhars-projects-e52b7d2f.vercel.app/))
 
 ---
 
