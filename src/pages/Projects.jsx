@@ -6,7 +6,8 @@ import { motion } from "framer-motion";
 const demoProjects = [
 { id: 1, title: 'AI Chatbot', desc: 'Conversational AI chatbot leveraging OpenAI models for interactive responses and intelligent communication.', repo: 'https://github.com/sasi-kanakinti/Chat-bot.git', demo: 'https://chat-bot-inky-omega-98.vercel.app/' },
 { id: 2, title: 'Files-Parsing', desc: 'Automated file parsing system using Python and Databricks to clean, process, and extract structured data efficiently.', repo: 'https://github.com/sasi-kanakinti/Files-Parsing.git', demo: 'https://portfolio-demo-basic.vercel.app' },
-{ id: 3, title: 'Mobile Prepaid Recharge', desc: 'Full-stack Java application enabling secure mobile prepaid recharges using Spring Boot and Spring Security.', repo: 'https://github.com/sasi-kanakinti/Mobile_Prepaid_Recharge.git', demo: '#' }
+{ id: 3, title: 'VidSNAP-AI', desc: 'VidSnapAI is an automated reel generator that converts text into speech and merges it with video content using FFmpeg.', repo: 'https://github.com/sasi-kanakinti/VidSnapAI.git', demo: 'https://vidsnapai-2vcs.onrender.com' },
+{ id: 4, title: 'Mobile Prepaid Recharge', desc: 'Full-stack Java application enabling secure mobile prepaid recharges using Spring Boot and Spring Security.', repo: 'https://github.com/sasi-kanakinti/Mobile_Prepaid_Recharge.git'}
 ]
 
 
