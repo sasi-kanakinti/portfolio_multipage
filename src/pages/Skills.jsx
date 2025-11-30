@@ -3,30 +3,61 @@ import { motion } from "framer-motion";
 
 
 const skills = {
-  Frontend: ['React', 'Tailwind', 'HTML', 'CSS', 'JavaScript'],
+  programmingLanguages: ["Python", "JavaScript", "SQL"],
 
-  Backend: ['SQL', 'MySQL', 'PostgreSQL'],
-
-  'AI / ML': ['Python', 'PyTorch', 'Transformers', 'RAG', 'HuggingFace'],
-
-  'MLOps / DevOps': [
-    'MLOps',
-    'CI/CD',
-    'Docker',
-    'Kubernetes',
-    'DVC',
-    'MLflow',
-    'Experiment Tracking',
-    'Grafana'
+  frontend: [
+    "React",
+    "Tailwind CSS",
+    "HTML",
+    "CSS",
+    "JavaScript"
   ],
 
-  Tools: ['Git', 'GitHub', 'DBeaver', 'Jenkins', 'VSCode', 'Postman'],
+  backend: [
+    "Flask",
+    "FastAPI",
+    "LangChain",
+    "SQL",
+    "MySQL"
+  ],
 
-  GenAI: ['ChatGPT', 'GitHub Copilot', 'Prompt Engineering'],
+  aiMl: [
+    "PyTorch",
+    "HuggingFace",
+    "Transformers",
+    "NLP"
+  ],
 
-  Cloud: ['Databricks', 'Azure OpenAI', 'Azure AI Services'],
+  mlopsDevops: [
+    "Docker",
+    "Airflow",
+    "CI/CD",
+    "MLflow",
+    "Jenkins"
+  ],
 
-  Frameworks: ['Django', 'Flask', 'FastAPI', 'LangChain']
+  tools: [
+    "Git",
+    "GitHub",
+    "DockerHub",
+    "Postman",
+    "VSCode",
+    "DBeaver",
+    "Cursor"
+  ],
+
+  cloud: [
+    "Databricks",
+    "Azure OpenAI",
+    "Azure AI Services"
+  ],
+
+  genAI: [
+    "ChatGPT",
+    "GitHub Copilot",
+    "Prompt Engineering",
+    "AI-assisted Development"
+  ]
 };
 
 
