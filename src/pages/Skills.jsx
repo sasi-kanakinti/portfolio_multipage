@@ -3,9 +3,14 @@ import { motion } from "framer-motion";
 
 
 const skills = {
-  programmingLanguages: ["Python", "JavaScript", "SQL"],
+  "Programming Languages": [
+    "Python", 
+    "JavaScript", 
+    "SQL", 
+    "Java"
+  ],
 
-  frontend: [
+  Frontend: [
     "React",
     "Tailwind CSS",
     "HTML",
@@ -13,7 +18,7 @@ const skills = {
     "JavaScript"
   ],
 
-  backend: [
+  Backend: [
     "Flask",
     "FastAPI",
     "LangChain",
@@ -21,14 +26,14 @@ const skills = {
     "MySQL"
   ],
 
-  aiMl: [
+  'AL/Ml': [
     "PyTorch",
     "HuggingFace",
     "Transformers",
     "NLP"
   ],
 
-  mlopsDevops: [
+  'MLOps/Devops': [
     "Docker",
     "Airflow",
     "CI/CD",
@@ -36,7 +41,7 @@ const skills = {
     "Jenkins"
   ],
 
-  tools: [
+  Tools: [
     "Git",
     "GitHub",
     "DockerHub",
@@ -46,13 +51,13 @@ const skills = {
     "Cursor"
   ],
 
-  cloud: [
+  Cloud: [
     "Databricks",
     "Azure OpenAI",
     "Azure AI Services"
   ],
 
-  genAI: [
+  GenAI: [
     "ChatGPT",
     "GitHub Copilot",
     "Prompt Engineering",
