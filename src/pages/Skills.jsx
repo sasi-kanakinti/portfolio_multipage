@@ -22,12 +22,10 @@ const skills = {
     "Flask",
     "FastAPI",
     "LangChain",
-    "SQL",
     "MySQL"
   ],
 
   'AL/Ml': [
-    "PyTorch",
     "HuggingFace",
     "Transformers",
     "NLP"
@@ -35,9 +33,7 @@ const skills = {
 
   'MLOps/Devops': [
     "Docker",
-    "Airflow",
     "CI/CD",
-    "MLflow",
     "Jenkins"
   ],
 
