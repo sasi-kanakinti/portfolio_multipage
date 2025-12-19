@@ -4,60 +4,58 @@ import { motion } from "framer-motion";
 
 const skills = {
   "Programming Languages": [
-    "Python", 
-    "JavaScript", 
-    "SQL", 
-    "Java"
+    "Python",
+    "JavaScript (Basics)",
+    "SQL",
+    "Java (Basics)"
   ],
 
   Frontend: [
-    "React",
-    "Tailwind CSS",
     "HTML",
     "CSS",
-    "JavaScript"
+    "Tailwind CSS",
+    "React"
   ],
 
   Backend: [
     "Flask",
     "FastAPI",
-    "LangChain",
     "MySQL"
   ],
 
-  'AL/Ml': [
+  "AI / ML": [
     "HuggingFace",
     "Transformers",
-    "NLP"
+    "Prompt Engineering",
+    "RAG"
   ],
 
-  'MLOps/Devops': [
+  "Data & ETL": [
+    "ETL Pipelines",
+    "Databricks"
+  ],
+
+  "DevOps / MLOps": [
     "Docker",
-    "CI/CD",
-    "Jenkins"
+    "Jenkins",
+    "CI/CD"
   ],
 
   Tools: [
     "Git",
     "GitHub",
-    "DockerHub",
     "Postman",
-    "VSCode",
-    "DBeaver",
-    "Cursor"
+    "VS Code",
+    "DBeaver"
   ],
 
   Cloud: [
-    "Databricks",
     "Azure OpenAI",
     "Azure AI Services"
   ],
 
-  GenAI: [
-    "ChatGPT",
-    "GitHub Copilot",
-    "Prompt Engineering",
-    "AI-assisted Development"
+  "Frameworks & Libraries": [
+    "LangChain"
   ]
 };
 
